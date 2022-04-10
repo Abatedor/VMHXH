@@ -1,58 +1,3 @@
-.menu ul li{
-	background-color: #ed473b;
-	float: left;
-	width: 50%;
-	height: 40px;
-	display: inline-block;
-	text-align:center;
-	vertical-align:central;
-	font-size: 20px;
-	font-family: "Palatino Linotype", "Book Antiqua";
-	font-weight: bold;
-	position: relative;
-	
-}
-
-.menu ul li:hover{
-	background-color: #87CEEB;
-}
-
-.menu ul{
-	padding: 0px;
-}
-
-.menu ul ul{
-	display: none;
-}
-
-.menu ul li:hover > ul{
-	display:block;
-}
-
-.menu ul ul ul{
-	margin-left: 201px;
-	top: 0px;
-	position: absolute;
-}
-
-.menu ul ul li:hover{
-	top: 0px;
-	background-color: #87CEEB;
-}
-
-.menu ul ul ul li:hover{
-	top: 0px;
-	background-color: #87CEEB;
-}
-
-.menu a{
-	color: white;
-	text-decoration: none;
-}
-body{
-	background-color: #00040f;
-	color: white;
-}
 .quemsomos{
 	position: fixed;
 	top: 400px; bottom: 0; 
@@ -89,18 +34,6 @@ body{
 .cardapio a{
 	color: white;
 }
-.body_info{
-	position: fixed;
-	top: 0; bottom: 0; 
-	left: 0; right:0;
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	align-content: center;
-	text-align: center;
-	color: white;
-
-}
 .info{
 	position: fixed;
 	top: 25px; bottom: 0; 
@@ -116,8 +49,8 @@ body{
 	color: white;
 }
 .open_info{
-	background-color: #00040f;
-	color: #00040f;
+	background-color: black;
+	color: black;
 	top: 500px; bottom: 0; 
 	left: 0; right:0;
 	text-align: center;
@@ -135,7 +68,7 @@ body{
 	color: white;
 
 }
-.pergunta_Sarah_1{
+.pergunta_historia_1{
 	position: fixed;
 	top: 200px; bottom: 0; 
 	left: 0; right:0;
@@ -149,7 +82,7 @@ body{
 	color: white;
 	display: block;
 }
-.pergunta_Sarah_2{
+.pergunta_historia_2{
 	position: fixed;
 	top: 200px; bottom: 0; 
 	left: 0; right:0;
@@ -163,7 +96,8 @@ body{
 	color: white;
 	display: none;
 }
-.pergunta_Sarah_3{
+
+.pergunta_historia_3{
 	position: fixed;
 	top: 200px; bottom: 0; 
 	left: 0; right:0;
@@ -177,7 +111,8 @@ body{
 	color: white;
 	display: none;
 }
-.pergunta_Sarah_4{
+
+.pergunta_historia_4{
 	position: fixed;
 	top: 200px; bottom: 0; 
 	left: 0; right:0;
@@ -191,7 +126,8 @@ body{
 	color: white;
 	display: none;
 }
-.pergunta_Sarah_5{
+
+.pergunta_historia_5{
 	position: fixed;
 	top: 200px; bottom: 0; 
 	left: 0; right:0;
@@ -200,6 +136,243 @@ body{
 	height: 100%;
 	padding: 15px;
 	background-color: black;
+	align-content: center;
+	text-align: center;
+	color: white;
+	display: none;
+}
+
+.pergunta_historia_6{
+	position: fixed;
+	top: 200px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+	background-color: black;
+	align-content: center;
+	text-align: center;
+	color: white;
+	display: none;
+}
+
+.pergunta_historia_7{
+	position: fixed;
+	top: 200px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+	background-color: black;
+	align-content: center;
+	text-align: center;
+	color: white;
+	display: none;
+}
+
+.pergunta_historia_8{
+	position: fixed;
+	top: 200px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+	background-color: black;
+	align-content: center;
+	text-align: center;
+	color: white;
+	display: none;
+}
+
+.pergunta_historia_9{
+	position: fixed;
+	top: 200px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+	background-color: black;
+	align-content: center;
+	text-align: center;
+	color: white;
+	display: none;
+}
+
+.pergunta_historia_10{
+	position: fixed;
+	top: 200px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+	background-color: black;
+	align-content: center;
+	text-align: center;
+	color: white;
+	display: none;
+}
+.sobre{
+	position: fixed;
+	top: 400px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 500px;
+	padding: 15px;
+	background-color: #00040f;
+	display: block;
+}
+.jade{
+	position: fixed;
+	top: 400px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 500px;
+	padding: 15px;
+	background-color: #00040f;
+	display: none;
+}
+.pergunta_sin_1{
+	position: fixed;
+	top: 400px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 500px;
+	padding: 15px;
+	background-color: #00040f;
+	align-content: center;
+	text-align: center;
+	color: white;
+	display: block;
+}
+.pergunta_sin_2{
+	position: fixed;
+	top: 400px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 500px;
+	padding: 15px;
+	background-color: #00040f;
+	align-content: center;
+	text-align: center;
+	color: white;
+	display: none;
+}
+.pergunta_sin_3{
+	position: fixed;
+	top: 400px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 500px;
+	padding: 15px;
+	background-color: #00040f;
+	align-content: center;
+	text-align: center;
+	color: white;
+	display: none;
+}
+.pergunta_sin_4{
+	position: fixed;
+	top: 400px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 500px;
+	padding: 15px;
+	background-color: #00040f;
+	align-content: center;
+	text-align: center;
+	color: white;
+	display: none;
+}
+.pergunta_sin_5{
+	position: fixed;
+	top: 400px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 500px;
+	padding: 15px;
+	background-color: #00040f;
+	align-content: center;
+	text-align: center;
+	color: white;
+	display: none;
+}
+.pergunta_sin_6{
+	position: fixed;
+	top: 400px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 500px;
+	padding: 15px;
+	background-color: #00040f;
+	align-content: center;
+	text-align: center;
+	color: white;
+	display: none;
+}
+.pergunta_sin_7{
+	position: fixed;
+	top: 400px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 500px;
+	padding: 15px;
+	background-color: #00040f;
+	align-content: center;
+	text-align: center;
+	color: white;
+	display: none;
+}
+.pergunta_sin_8{
+	position: fixed;
+	top: 400px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 500px;
+	padding: 15px;
+	background-color: #00040f;
+	align-content: center;
+	text-align: center;
+	color: white;
+	display: none;
+}
+.pergunta_sin_9{
+	position: fixed;
+	top: 400px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 500px;
+	padding: 15px;
+	background-color: #00040f;
+	align-content: center;
+	text-align: center;
+	color: white;
+	display: none;
+}
+.pergunta_sin_10{
+	position: fixed;
+	top: 400px; bottom: 0; 
+	left: 0; right:0;
+	margin: auto;
+	width: 100%;
+	height: 500px;
+	padding: 15px;
+	background-color: #00040f;
 	align-content: center;
 	text-align: center;
 	color: white;

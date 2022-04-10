@@ -1,99 +1,187 @@
 <!doctype html>
-<html>
-	<head>
-		<link href="style.css" rel="stylesheet" type="text/css">
+<html><head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css" />	
 		<script type="text/javascript">
-			function fechar_1(){
-				document.getElementById('open_info').style.display =  'none';
+			function abrirq(){
+				document.getElementById('armas').style.display = 'block';
 			}
-			function abrir_2(){
-				document.getElementById('info').style.display = 'block';
+			function fecharq(){
+				document.getElementById('armas').style.display =  'none';
 			}
-			function fechar_2(){
-				document.getElementById('open_info').style.display =  'none';
+			function abrirb(){
+				document.getElementById('estadia').style.display = 'block';
 			}
-			function abrir_3(){
-				document.getElementById('info').style.display = 'block';
-			}
-			function fechar_3(){
-				document.getElementById('open_info').style.display =  'none';
-			}
-			function abrir_4(){
-				document.getElementById('info').style.display = 'block';
-			}
-			function fechar_4(){
-				document.getElementById('open_info').style.display =  'none';
-			}
-			function abrir_5(){
-				document.getElementById('info').style.display = 'block';
-			}
-			function fechar_5(){
-				document.getElementById('open_info').style.display =  'none';
+			function fecharb(){
+				document.getElementById('estadia').style.display =  'none';
 			}
 		</script>
-		<meta charset="utf-8">
-		<title>Bat_Cave_da_Sarah</title>
+		<link rel="shortcut icon" href="sarah_icon.jpg" type="image/x-icon"/>
+		<style type="text/css">
+			.menu ul li{
+				background-color: #556b2f;
+				float: left;
+				width: 50%;
+				height: 40px;
+				display: inline-block;
+				text-align:center;
+				vertical-align:central;
+				font-size: 20px;
+				font-family: "Palatino Linotype", "Book Antiqua";
+				font-weight: bold;
+				position: relative;
+	
+			}
+
+			.menu ul li:hover{
+				background-color: #38251F;
+			}
+
+			.menu ul{
+				padding: 0px;
+			}
+
+			.menu ul ul{
+				display: none;
+			}
+
+			.menu ul li:hover > ul{
+				display:block;
+			}
+
+			.menu ul ul ul{
+				margin-left: 201px;
+				top: 0px;
+				position: absolute;
+			}
+
+			.menu ul ul li:hover{
+				top: 0px;
+				background-color: #38251F;
+			}
+
+			.menu ul ul ul li:hover{
+				top: 0px;
+				background-color: #38251F;
+			}
+
+			.menu a{
+				color: white;
+				text-decoration: none;
+			}
+			body{
+				background-color: #00040f;
+				color: white;
+}
+			a{
+				color: white;
+			}
+        </style>
+<title>Bat_Cave_da_Sarah</title>
 	</head>
 	
 	<body>
-	
-	<div class="body_Sarah">
-		
-		<div id="1" class="pergunta_Sarah_1" align="center">
-				<h1>Pergunta</h1>
-				<a href="javascript: abrir_2() ; javascript: fechar_1() ;">
-					<button>Resposta Certa(Mudar ordem das respostas)</button><br>
-				</a>
-				<button>Resposta 1</button><br>
-				<button>Resposta 1</button><br>
-				<button>Resposta 1</button><br>
-				<button>Resposta 1</button><br>
+		<div class="banner" align="center">
+			<a href="bat_cave_Sarah.html"><img src="banner_sarah.jpg" width="100%"></a>
 		</div>
 		
-		<div id="2" class="pergunta_Sarah_2" align="center">
-				<h1>Pergunta</h1>
-				<a href="javascript: abrir_3() ; javascript: fechar_2() ;">
-					<button>Resposta Certa(Mudar ordem das respostas)</button><br>
-				</a>
-				<button>Resposta 1</button><br>
-				<button>Resposta 1</button><br>
-				<button>Resposta 1</button><br>
-				<button>Resposta 1</button><br>
+		<nav class="menu">
+			<div class="menu" align="center">
+				<ul>
+					<a href="javascript: fecharb() ; javascript: abrirq() ;"><li>Armas</li></a>
+					<a href="javascript: fecharq() ; javascript: abrirb() ;"><li>Estadia</li></a>	
+				</ul>
+			</div>
+		</nav>
+		
+<br/><br/><br/><br/><br/>
+		
+		<div id="armas" class="armas" align="center">
+			<h1>Armas</h1><br>
+			<table width="80%%" border="1" align="center">
+  <tbody>
+    <tr>
+      <td colspan="8"><center>"Barra Pesada"</center></td>
+    </tr>
+    <tr>
+      <td>Nome</td>
+      <td>Calibre</td>
+      <td>Dano</td>
+      <td>CdT</td>
+      <td>Pente</td>
+      <td>Ocultabilidade</td>
+      <td>Alcance</td>
+      <td>Preço</td>
+    </tr>
+    <tr>
+      <td>Magnum Desert Eagle</td>
+      <td>.50AE</td>
+      <td>D10x3+3</td>
+      <td>1</td>
+      <td>7</td>
+      <td>J</td>
+      <td>30</td>
+      <td>R$: 60000,00</td>
+    </tr>
+    <tr>
+      <td>Cassull</td>
+      <td>.454</td>
+      <td>D10x4+1</td>
+      <td>1</td>
+      <td>6</td>
+      <td>J</td>
+      <td>40</td>
+      <td>R$: 70000,00</td>
+    </tr>
+    <tr>
+      <td>Linebaugh</td>
+      <td>.475</td>
+      <td>D10x2</td>
+      <td>1</td>
+      <td>6</td>
+      <td>J</td>
+      <td>40</td>
+      <td>R$: 50000,00</td>
+    </tr>
+  </tbody>
+</table>
+			<a href="passo_largo.html"><center><h1>Mais opções de armamento em breve.....</h1></center></a>
+		
 		</div>
 		
-		<div id="3" class="pergunta_Sarah_3" align="center">
-				<h1>Pergunta</h1>
-				<a href="javascript: abrir_4() ; javascript: fechar_3() ;">
-					<button>Resposta Certa(Mudar ordem das respostas)</button><br>
-				</a>
-				<button>Resposta 1</button><br>
-				<button>Resposta 1</button><br>
-				<button>Resposta 1</button><br>
-				<button>Resposta 1</button><br>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		
+		
+		<div id="estadia" class="estadia" align="center">
+			<h1>Estadia</h1>
+			<table width="" border="1">
+  				<tbody>
+    				<tr>
+      					<td>Estadia</td>
+      					<td>Preços</td>
+    				</tr>
+    				<tr>
+      					<td>1 Dia</td>
+      					<td>R$100,99</td>
+    				</tr>
+    				<tr>
+      					<td>7 Dias</td>
+      					<td>R$250,60</td>
+    				</tr>
+    				<tr>
+      					<td>30 Dias</td>
+      					<td>R$1000,54</td>
+    				</tr>
+    				<tr>
+      					<td>Indefinido</td>
+      					<td>R$5400,32</td>
+    				</tr>
+  				</tbody>
+			</table>
+			<a href="passo_largo.html"><center><h1>Novas informações de estadia em breve....</h1></center></a>
+			
 		</div>
 
-		<div id="4" class="pergunta_Sarah_4" align="center">
-				<h1>Pergunta</h1>
-				<a href="javascript: abrir_5() ; javascript: fechar_4() ;">
-					<button>Resposta Certa(Mudar ordem das respostas)</button><br>
-				</a>
-				<button>Resposta 1</button><br>
-				<button>Resposta 1</button><br>
-				<button>Resposta 1</button><br>
-				<button>Resposta 1</button><br>
-		</div>
-
-		<div id="5" class="pergunta_Historico_5" align="center">
-				<h1>Pergunta</h1>
-				<a href="">
-					<button>Resposta Certa(Mudar ordem das respostas)</button><br>
-				</a>
-				<button>Resposta 1</button><br>
-				<button>Resposta 1</button><br>
-				<button>Resposta 1</button><br>
-				<button>Resposta 1</button><br>
-		</div>
-
-	</div>
 	</body>
+	
 </html>

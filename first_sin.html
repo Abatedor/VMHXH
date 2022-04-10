@@ -1,8 +1,20 @@
 <!doctype html>
-<html>
-	<head>
-		<link href="style.css" rel="stylesheet" type="text/css">
+<html><head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css" />	
 		<script type="text/javascript">
+			function abrirq(){
+				document.getElementById('sobre').style.display = 'block';
+			}
+			function fecharq(){
+				document.getElementById('sobre').style.display =  'none';
+			}
+			function abrirb(){
+				document.getElementById('jade').style.display = 'block';
+			}
+			function fecharb(){
+				document.getElementById('jade').style.display =  'none';
+			}
 			function fechar_1(){
 				document.getElementById('1').style.display =  'none';
 			}
@@ -53,474 +65,505 @@
 				document.getElementById('10').style.display = 'block';
 			}
 			function abrir_6(){
-				document.getElementById('9').style.display = 'block';
+				document.getElementById('6').style.display = 'block';
 			}
 			function fechar_6(){
-				document.getElementById('9').style.display =  'none';
+				document.getElementById('6').style.display =  'none';
 			}
 		</script>
+		<link rel="shortcut icon" href="first_sin_icon.jpg" type="image/x-icon"/>
 		<style type="text/css">
-			body{
-				position: fixed;
-				top: 0; bottom: 0; 
-				left: 0; right:0;
-				width: 100%;
-				height: 100%;
-				background-color: black;
-				align-content: center;
-				text-align: center;
-				color: white;
+			.menu ul li{
+				background-color: #e0b0ff;
+				float: left;
+				width: 50%;
+				height: 40px;
+				display: inline-block;
+				text-align:center;
+				vertical-align:central;
+				font-size: 20px;
+				font-family: "Palatino Linotype", "Book Antiqua";
+				font-weight: bold;
+				position: relative;
+	
+			}
 
+			.menu ul li:hover{
+				background-color: #B8860B;
+			}
+
+			.menu ul{
+				padding: 0px;
+			}
+
+			.menu ul ul{
+				display: none;
+			}
+
+			.menu ul li:hover > ul{
+				display:block;
+			}
+
+			.menu ul ul ul{
+				margin-left: 201px;
+				top: 0px;
+				position: absolute;
+			}
+
+			.menu ul ul li:hover{
+				top: 0px;
+				background-color: #B8860B;
+			}
+
+			.menu ul ul ul li:hover{
+				top: 0px;
+				background-color: #B8860B;
+			}
+
+			.menu a{
+				color: white;
+				text-decoration: none;
+			}
+			body{
+				background-color: #00040f;
+				color: white;
 			}
 			a{
 				color: white;
 			}
-		</style>
-		<meta charset="utf-8">
-		<title>Historia</title>
+        </style>
+<title>First Sin</title>
 	</head>
 	
 	<body>
+		<div class="banner" align="center">
+			<a href="first_sin.html"><img src="banner_first_sin.jpg" width="100%"></a>
+		</div>
 		
-		<div id="1" class="pergunta_historia_1" align="center">
-				<h1>Qual o Nome do monarca o qual matou manifestantes na Rússia</h1><br>
+		<nav class="menu">
+			<div class="menu" align="center">
+				<ul>
+					<a href="javascript: fecharb() ; javascript: abrirq() ;"><li>Sobre Nós</li></a>
+					<a href="javascript: fecharq() ; javascript: abrirb() ;"><li>V.I.P</li></a>	
+				</ul>
+			</div>
+		</nav>
+		
+		<div id="sobre" class="sobre" align="center">
+			<h1>
+				Sobre nós
+			</h1>
+			Ei! A noite tá chata ? Então para ! Que gente bonita nã faz cara feia. Vem experimentar o primeiro pecado:
+			<br><br>
+			R. Marquês de Paranaguá, 329 - Consolação, São Paulo - SP, 01303-050
+		</div>
+		
+		<div id="jade" class="jade" align="center">
+			<h1>Complete o Quiz para se tornar V.I.P</h1>
+			
+			<div id="1" class="pergunta_sin_1" align="center">
+				<h1>Quando e onde surgiu o Pixes ?</h1><br>
+				<a href="index.html">
+					<table width="25%%" border="1" align="center">
+  						<tbody>
+    						<tr>
+      							<td>1997- Alabama</td>
+    						</tr>
+  						</tbody>
+					</table>
+				</a><br>
+				
+				<a href="index.html">
+					<table width="25%%" border="1" align="center">
+  						<tbody>
+    						<tr>
+      							<td>1967- São Paulo</td>
+    						</tr>
+  						</tbody>
+					</table>
+				</a><br>
+				
+				<a href="index.html">
+					<table width="25%%" border="1" align="center">
+  						<tbody>
+    						<tr>
+      							<td>1977- Moscou</td>
+    						</tr>
+  						</tbody>
+					</table>
+				</a><br>
+			
 				<a href="javascript: abrir_2() ; javascript: fechar_1() ;">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Ivan Tortovisk</td>
+      							<td>1977- Boston</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
-				
-				<a href="index.html">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>Pedro I</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
-				
-				<a href="index.html">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>Catarina I</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
-			
-				<a href="index.html">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>Pedro II</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
-			
-				<a href="index.html">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>Ana da Rússia</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
+				</a><br>
 		</div>
-		
-		<div id="2" class="pergunta_historia_2" align="center">
-			<h1>Qual a Guerra entre Tremeres e Ventrues ?</h1><br>
+		</div>
+
+		<div id="2" class="pergunta_sin_2" align="center">
+			<h1>Qual é o disco de maior sucesso do Pixes ?</h1><br>
 				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Primeira Guerra Mundial</td>
+      							<td>It's a fairy book romance</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
+				</a><br>
 				
+				<a href="index.html">
+					<table width="25%%" border="1" align="center">
+  						<tbody>
+    						<tr>
+      							<td>Daed inside dead outside</td>
+    						</tr>
+  						</tbody>
+					</table>
+				</a><br>
+				
+				<a href="index.html">
+					<table width="25%%" border="1" align="center">
+  						<tbody>
+    						<tr>
+      							<td>My body may pain</td>
+    						</tr>
+  						</tbody>
+					</table>
+				</a><br>
+			
 				<a href="javascript: abrir_3() ; javascript: fechar_2() ;">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Guerra Civil Americana</td>
+      							<td>Here Comes Your Man</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
-				
-				<a href="index.html">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>Segunda Guerra Mundial</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
+				</a><br>
 			
-				<a href="index.html">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>Guerra do Paraguai</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
-			
-				<a href="index.html">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>Guerra dos Mil Anos</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
 		</div>
 		
-		<div id="3" class="pergunta_historia_3" align="center">
-			<h1>Qual o nome do mais forte Brujha ?</h1><br>
+		<div id="3" class="pergunta_sin_3" align="center">
+			<h1>Qual foi O ÚLTIMO SHOW DE MIKE STARR (baixista) COM A BANDA Alice in the Chains ?</h1><br>
 				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Lou Bu</td>
+      							<td>Rock’n Rio - 2002</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
+				</a><br>
 				
 				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Leonidas</td>
+      							<td>Woodstock – 1997</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
+				</a><br>
 				
 				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Gilgamesh</td>
+      							<td>Lolapaluza - 2014</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
+				</a><br>
 			
 				<a href="javascript: abrir_4() ; javascript: fechar_3() ;">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Gengis Khan</td>
+      							<td>HOLLYWOOD ROCK - 1993</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
-			
+				</a><br>
+		</div>
+
+		<div id="4" class="pergunta_sin_4" align="center">
+				<h1>Qual o primeiro Single do R.E.M ?</h1><br>
 				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Miamoto Musashi</td>
+      							<td>Wildside Man</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
-		</div>
-
-		<div id="4" class="pergunta_historia_4" align="center">
-				<h1>Cite a revolução no qual os Grangel se revoltaram contra os Ventrues</h1><br>
+				</a><br>
+				
+				<a href="index.html">
+					<table width="25%%" border="1" align="center">
+  						<tbody>
+    						<tr>
+      							<td>Rain Knife</td>
+    						</tr>
+  						</tbody>
+					</table>
+				</a><br>
+			
 				<a href="javascript: abrir_5() ; javascript: fechar_4() ;">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Revolução Russa</td>
+      							<td>Radio Free Europe</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
+				</a><br>
+		</div>
+
+		<div id="5" class="pergunta_sin_5" align="center">
+				<h1>Qual musica levou o R.E.M ao Top 20 nos Estados Unidos, Reino Unido e Canadá ?</h1><br>
+				<a href="index.html">
+					<table width="25%%" border="1" align="center">
+  						<tbody>
+    						<tr>
+      							<td>Echos of a mirror</td>
+    						</tr>
+  						</tbody>
+					</table>
+				</a><br>
 				
 				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Luta dos indigenas americanos contra o colonialismo</td>
+      							<td>Souls Chains</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
-			
+				</a><br>
+				
 				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Escape dos Hebreus do Egito</td>
+      							<td>Tear tea</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
-		</div>
-
-		<div id="5" class="pergunta_historia_5" align="center">
-				<h1>Qual o nome do lendário caçador de vampiros ?</h1><br>
+				</a><br>
+			
 				<a href="javascript: abrir_6() ; javascript: fechar_5() ;">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Papa Francisco</td>
+      							<td>The One I Love</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
-				
-				<a href="index.html">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>Van Hellsing</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
-				
-				<a href="index.html">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>Mahatma Gandhi</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
-			
-				<a href="index.html">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>Abbrahan Lincon</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
+				</a><br>
 		</div>
 		
-		<div id="6" class="pergunta_historia_6" align="center">
-				<h1>O que levou independencia do Brasil ?</h1><br>
+		<div id="6" class="pergunta_sin_6" align="center">
+				<h1>Creep do RedioHead foi um sucesso imediato ?</h1><br>
 				<a href="javascript: abrir_7() ; javascript: fechar_6() ;">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Um jogo de Ventrues</td>
+      							<td>Não</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
+				</a><br>
 				
 				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>A separação da familia real portuguesa</td>
+      							<td>Sim</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
-				
-				<a href="index.html">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>O desejo do povo</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
-			
-				<a href="index.html">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>A morte de João</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
+				</a><br>
 		</div>
 		
-		<div id="7" class="pergunta_historia_7" align="center">
-				<h1>Qual o nome do maior vampiro Tremere ?</h1><br>
+		<div id="7" class="pergunta_sin_7" align="center">
+				<h1>RedioHead é considerada ?</h1><br>
 				<a href="javascript: abrir_8() ; javascript: fechar_7() ;">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Michael de Nostredame</td>
+      							<td>Rock alternativo</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
+				</a><br>
 				
 				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Buda</td>
+      							<td>Trip Rock</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
+				</a><br>
 				
 				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Cesar</td>
+      							<td>Metal</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
+				</a><br>
+		</div>
+		
+		<div id="8" class="pergunta_sin_8" align="center">
+				<h1>Portishead é uma banda</h1><br>
+				<a href="index.html">
+					<table width="25%%" border="1" align="center">
+  						<tbody>
+    						<tr>
+      							<td>Americana</td>
+    						</tr>
+  						</tbody>
+					</table>
+				</a><br>
 			
-				<a href="index.html">
+				<a href="javascript: abrir_9() ; javascript: fechar_8() ;">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Nicola Tesla</td>
+      							<td>Inglesa</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
-		</div>
-		
-		<div id="8" class="pergunta_historia_8" align="center">
-				<h1>Cite o nome dos filhos de Caim</h1><br>
-				<a href="javascript: abrir_2() ; javascript: fechar_1() ;">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>Não há registros historicos</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
+				</a><br>
 				
 				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Assir, Conetimetú, Recto, Urani e Cotmer</td>
+      							<td>Alemã</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
+				</a><br>
 				
 				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Retmac, Qmert, fasct e parrn</td>
+      							<td>Sueca</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
+				</a><br>
 		</div>
 		
-		<div id="9" class="pergunta_historia_9" align="center">
-				<h1>Na cidade de Babel qual era o clã de pacifista ?</h1><br>
+		<div id="9" class="pergunta_sin_9" align="center">
+				<h1>Como se indentifica a voz por trás do Portishead ?</h1><br>
+				<a href="index.html">
+					<table width="25%%" border="1" align="center">
+  						<tbody>
+    						<tr>
+      							<td>Homem</td>
+    						</tr>
+  						</tbody>
+					</table>
+				</a><br>
+				
+				<a href="index.html">
+					<table width="25%%" border="1" align="center">
+  						<tbody>
+    						<tr>
+      							<td>Mulher Trans</td>
+    						</tr>
+  						</tbody>
+					</table>
+				</a><br>
+				
+				<a href="index.html">
+					<table width="25%%" border="1" align="center">
+  						<tbody>
+    						<tr>
+      							<td>Não-binaria</td>
+    						</tr>
+  						</tbody>
+					</table>
+				</a><br>
+			
 				<a href="javascript: abrir_10() ; javascript: fechar_9() ;">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Brujha</td>
+      							<td>Mulher</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
-				
-				<a href="index.html">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>Gangrel</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
-				
-				<a href="index.html">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>Malkavianos</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
+				</a><br>
 			
 				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Nosferatu</td>
+      							<td>mulher Trans</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
-			
-				<a href="index.html">
-					<table width="25%%" border="1" align="center">
-  						<tbody>
-    						<tr>
-      							<td>Toreador</td>
-    						</tr>
-  						</tbody>
-					</table>
-				</a>
+				</a><br>
 		</div>
 		
-		<div id="10" class="pergunta_historia_10" align="center">
-			<h1>Qual era o rei Ventrue mais forte ?</h1><br>
-				<a href="c">
+		<div id="10" class="pergunta_sin_10" align="center">
+			<h1>Como se chamava o vocalista do Alice in the Chains ?</h1><br>
+				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Rei Athur</td>
+      							<td>Silvester Brow</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
+				</a><br>
 				
 				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Rei Leonidas</td>
+      							<td>Joe Hemilton</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
+				</a><br>
 				
 				<a href="index.html">
 					<table width="25%%" border="1" align="center">
   						<tbody>
     						<tr>
-      							<td>Henrique IV</td>
+      							<td>April Summers</td>
     						</tr>
   						</tbody>
 					</table>
-				</a>
+				</a><br>
+			
+				<a href="passo_largo.html">
+					<table width="25%%" border="1" align="center">
+  						<tbody>
+    						<tr>
+      							<td>Layne Staley</td>
+    						</tr>
+  						</tbody>
+					</table>
+				</a><br>
+			
 		</div>
-
+		
 	</body>
+	
 </html>
